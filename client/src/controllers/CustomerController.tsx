@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import axios from "axios";
 
 export function CustomerController() {
@@ -11,6 +11,10 @@ export function CustomerController() {
         address: string;
         salary: string;
     }
+
+    useEffect(() => {
+        loadAllCustomers();
+    }, []);
 
     const [customerId, setCustomerId] = useState<string>('');
     const [customerName, setCustomerName] = useState<string>('');
@@ -28,6 +32,7 @@ export function CustomerController() {
 
         try {
             await axios.post(`${baseUrl}/saveCustomer`, customerOb, {headers: {'Content-Type': 'application/json'}});
+            loadAllCustomers();
             alert("Customer Saved Successfully...!");
         } catch (error) {
             alert("Customer Save Error...!");
@@ -57,6 +62,7 @@ export function CustomerController() {
 
         try {
             await axios.put(`${baseUrl}/updateCustomer`, customerOb, {headers: {'Content-Type': 'application/json'}});
+            loadAllCustomers();
             alert("Customer Updated Successfully...!");
         } catch (error) {
             alert("Customer Update Error...!");
@@ -66,6 +72,7 @@ export function CustomerController() {
     const deleteCustomer = async () => {
         try {
             await axios.delete(`${baseUrl}/deleteCustomer/${customerId}`);
+            loadAllCustomers();
             alert("Customer Deleted Successfully...!");
         } catch (error) {
             alert("Customer Delete Error...!");
