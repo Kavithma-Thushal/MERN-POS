@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbeb44ed-df04-4398-934d-db93f4a3a8c7" name="Changes" comment="CustomerController.tsx Added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cbeb44ed-df04-4398-934d-db93f4a3a8c7" name="Changes" comment="Load All Customers Refactored" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +118,7 @@
       <workItem from="1718775152044" duration="529000" />
       <workItem from="1718781849624" duration="170000" />
       <workItem from="1718789547075" duration="1090000" />
-      <workItem from="1718790669765" duration="641000" />
+      <workItem from="1718790669765" duration="1377000" />
     </task>
     <task id="LOCAL-00001" summary="client Added">
       <option name="closed" value="true" />
@@ -146,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718790641325</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Load All Customers Refactored">
+      <option name="closed" value="true" />
+      <created>1718792042615</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718792042615</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +163,7 @@
     <MESSAGE value="client Added" />
     <MESSAGE value="README.md Updated" />
     <MESSAGE value="CustomerController.tsx Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="CustomerController.tsx Added" />
+    <MESSAGE value="Load All Customers Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Load All Customers Refactored" />
   </component>
 </project>
