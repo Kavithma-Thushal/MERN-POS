@@ -1,8 +1,10 @@
 {
-  "name": "mongo-crud",
-  "version": "1.0.0",
+  "name": "mern-crud-server",
+  "version": "3.0.0",
+  "author": "Kavithma Thushal",
+  "license": "Apache-2.0",
   "private": true,
-  "description": "Node.js + Express.js + MongoDB CRUD",
+  "description": "Simple CRUD Using MERN Stack",
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js"
