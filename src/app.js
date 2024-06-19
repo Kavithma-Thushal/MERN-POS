@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
+const cors = require('cors');  // Importing the CORS middleware
 const config = require('./config');
 const customerRoutes = require('./routes/CustomerRoutes');
 
@@ -11,6 +12,7 @@ const PORT = process.env.PORT || 8080;
 // Middleware
 app.use(bodyParser.json());
 app.use(morgan('dev'));
+app.use(cors());  // Using the CORS middleware
 
 // Routes
 app.use('/api/v1/customer', customerRoutes);
