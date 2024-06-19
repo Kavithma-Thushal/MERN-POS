@@ -1,13 +1,13 @@
-const Customer = require('../models/Customer');
+const CustomerEntity = require('../entity/CustomerEntity');
 
 exports.saveCustomer = async (req, res) => {
     const {id, name, address, salary} = req.body;
     try {
-        const existingCustomer = await Customer.findOne({id});
+        const existingCustomer = await CustomerEntity.findOne({id});
         if (existingCustomer) {
             return res.status(400).json({message: 'Customer already exists...!'});
         }
-        const newCustomer = new Customer({id, name, address, salary});
+        const newCustomer = new CustomerEntity({id, name, address, salary});
         await newCustomer.save();
         res.status(201).json({message: 'Customer Saved Successfully...!'});
     } catch (err) {
@@ -18,7 +18,7 @@ exports.saveCustomer = async (req, res) => {
 exports.searchCustomer = async (req, res) => {
     const {id} = req.params;
     try {
-        const customer = await Customer.findOne({id});
+        const customer = await CustomerEntity.findOne({id});
         if (!customer) {
             return res.status(404).json({message: 'Customer not found'});
         }
@@ -31,7 +31,7 @@ exports.searchCustomer = async (req, res) => {
 exports.updateCustomer = async (req, res) => {
     const {id, name, address, salary} = req.body;
     try {
-        const customer = await Customer.findOneAndUpdate(
+        const customer = await CustomerEntity.findOneAndUpdate(
             {id},
             {name, address, salary},
             {new: true, runValidators: true}
@@ -48,7 +48,7 @@ exports.updateCustomer = async (req, res) => {
 exports.deleteCustomer = async (req, res) => {
     const {id} = req.params;
     try {
-        const customer = await Customer.findOneAndDelete({id});
+        const customer = await CustomerEntity.findOneAndDelete({id});
         if (!customer) {
             return res.status(404).json({message: 'Customer not found'});
         }
@@ -60,7 +60,7 @@ exports.deleteCustomer = async (req, res) => {
 
 exports.loadAllCustomers = async (req, res) => {
     try {
-        const customers = await Customer.find();
+        const customers = await CustomerEntity.find();
         res.status(200).json(customers);
     } catch (err) {
         res.status(500).json({error: err.message});
