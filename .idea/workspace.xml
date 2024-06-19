@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbeb44ed-df04-4398-934d-db93f4a3a8c7" name="Changes" comment="client Added" />
+    <list default="true" id="cbeb44ed-df04-4398-934d-db93f4a3a8c7" name="Changes" comment="README.md Updated">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/80154458-0be6-445b-8fb1-e274212ad4b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/80154458-0be6-445b-8fb1-e274212ad4b2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/controllers/CustomerController.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/controllers/CustomerController.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/CustomerPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/CustomerPage.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,6 +120,9 @@
       <updated>1718767370182</updated>
       <workItem from="1718767371354" duration="488000" />
       <workItem from="1718767865143" duration="478000" />
+      <workItem from="1718775152044" duration="529000" />
+      <workItem from="1718781849624" duration="170000" />
+      <workItem from="1718789547075" duration="1044000" />
     </task>
     <task id="LOCAL-00001" summary="client Added">
       <option name="closed" value="true" />
@@ -124,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718768382199</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="README.md Updated">
+      <option name="closed" value="true" />
+      <created>1718775673066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718775673066</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +149,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="client Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="client Added" />
+    <MESSAGE value="README.md Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md Updated" />
   </component>
 </project>
