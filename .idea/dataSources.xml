@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@localhost" uuid="c25df80d-2a3f-4e2b-8b32-1fbf1665d19d">
+    <data-source source="LOCAL" name="@localhost" uuid="80154458-0be6-445b-8fb1-e274212ad4b2">
       <driver-ref>mongo</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
