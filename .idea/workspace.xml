@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbeb44ed-df04-4398-934d-db93f4a3a8c7" name="Changes" comment="Customer Module Refactored">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/80154458-0be6-445b-8fb1-e274212ad4b2.xml" beforeDir="false" />
+    <list default="true" id="cbeb44ed-df04-4398-934d-db93f4a3a8c7" name="Changes" comment="Customer Module Refactored 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,8 +94,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.client" />
         <item itemvalue="npm.server" />
+        <item itemvalue="npm.client" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +131,8 @@
       <workItem from="1719668584968" duration="61000" />
       <workItem from="1719734750706" duration="532000" />
       <workItem from="1719735307331" duration="11000" />
+      <workItem from="1719735887752" duration="87000" />
+      <workItem from="1719735979835" duration="189000" />
     </task>
     <task id="LOCAL-00001" summary="client Added">
       <option name="closed" value="true" />
@@ -189,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719735275844</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Customer Module Refactored 2">
+      <option name="closed" value="true" />
+      <created>1719735968021</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719735968021</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +213,7 @@
     <MESSAGE value="Server Refactored" />
     <MESSAGE value="package.json Refactored" />
     <MESSAGE value="Customer Module Refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Customer Module Refactored" />
+    <MESSAGE value="Customer Module Refactored 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer Module Refactored 2" />
   </component>
 </project>
