@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbeb44ed-df04-4398-934d-db93f4a3a8c7" name="Changes" comment="Server Refactored" />
+    <list default="true" id="cbeb44ed-df04-4398-934d-db93f4a3a8c7" name="Changes" comment="package.json Refactored">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/80154458-0be6-445b-8fb1-e274212ad4b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/80154458-0be6-445b-8fb1-e274212ad4b2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/api/CustomerAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/api/CustomerAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/entity/CustomerEntity.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/module/CustomerModule.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,6 +127,14 @@
       <workItem from="1718789547075" duration="1090000" />
       <workItem from="1718790669765" duration="1377000" />
       <workItem from="1718792204838" duration="1481000" />
+      <workItem from="1718802271931" duration="282000" />
+      <workItem from="1718803242439" duration="724000" />
+      <workItem from="1718812969130" duration="1886000" />
+      <workItem from="1718816084041" duration="253000" />
+      <workItem from="1718821425599" duration="207000" />
+      <workItem from="1719668439874" duration="124000" />
+      <workItem from="1719668584968" duration="61000" />
+      <workItem from="1719734750706" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="client Added">
       <option name="closed" value="true" />
@@ -161,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718793689819</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="package.json Refactored">
+      <option name="closed" value="true" />
+      <created>1718801863122</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718801863122</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +197,7 @@
     <MESSAGE value="CustomerController.tsx Added" />
     <MESSAGE value="Load All Customers Refactored" />
     <MESSAGE value="Server Refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server Refactored" />
+    <MESSAGE value="package.json Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="package.json Refactored" />
   </component>
 </project>

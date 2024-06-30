@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-241.17890.1">
-    <data-source name="@localhost" uuid="80154458-0be6-445b-8fb1-e274212ad4b2">
+    <data-source name="@localhost" uuid="77f2b458-b0cd-411f-a86e-2efc8ecfdde6">
       <database-info product="Mongo DB" version="7.0.11" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.18" dbms="MONGO" exact-version="7.0.11" exact-driver-version="1.18" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
