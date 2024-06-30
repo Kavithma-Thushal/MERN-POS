@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbeb44ed-df04-4398-934d-db93f4a3a8c7" name="Changes" comment="package.json Refactored">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/80154458-0be6-445b-8fb1-e274212ad4b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/80154458-0be6-445b-8fb1-e274212ad4b2.xml" afterDir="false" />
+    <list default="true" id="cbeb44ed-df04-4398-934d-db93f4a3a8c7" name="Changes" comment="Customer Module Refactored">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/80154458-0be6-445b-8fb1-e274212ad4b2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/api/CustomerAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/api/CustomerAPI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/entity/CustomerEntity.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/module/CustomerModule.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,7 @@
       <recent name="D:\IJSE\Workspace\3rd Sem Repo\My\MERN-CRUD\server" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.client">
+  <component name="RunManager" selected="npm.server">
     <configuration name="client" type="js.build_tools.npm" temporary="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -134,7 +130,8 @@
       <workItem from="1718821425599" duration="207000" />
       <workItem from="1719668439874" duration="124000" />
       <workItem from="1719668584968" duration="61000" />
-      <workItem from="1719734750706" duration="493000" />
+      <workItem from="1719734750706" duration="532000" />
+      <workItem from="1719735307331" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="client Added">
       <option name="closed" value="true" />
@@ -184,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718801863122</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Customer Module Refactored">
+      <option name="closed" value="true" />
+      <created>1719735275844</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719735275844</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +203,7 @@
     <MESSAGE value="Load All Customers Refactored" />
     <MESSAGE value="Server Refactored" />
     <MESSAGE value="package.json Refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="package.json Refactored" />
+    <MESSAGE value="Customer Module Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer Module Refactored" />
   </component>
 </project>

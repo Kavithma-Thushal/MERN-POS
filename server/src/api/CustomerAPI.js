@@ -1,4 +1,4 @@
-const CustomerEntity = require('../module/CustomerModule');
+const CustomerEntity = require('../model/CustomerModel');
 
 exports.saveCustomer = async (req, res) => {
     const {id, name, address, salary} = req.body;
