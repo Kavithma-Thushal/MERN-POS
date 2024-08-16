@@ -4,6 +4,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const config = require('./config');
+const customerRoutes = require('./routes/CustomerRoutes');
 const itemRoutes = require('./routes/ItemRoutes');
 
 const app = express();
@@ -15,6 +16,7 @@ app.use(morgan('dev'));
 app.use(cors());
 
 // Routes
+app.use('/api/v1/Customer', customerRoutes);
 app.use('/api/v1/item', itemRoutes);
 
 // MongoDB Connection

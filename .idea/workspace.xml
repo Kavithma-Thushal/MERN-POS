@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbeb44ed-df04-4398-934d-db93f4a3a8c7" name="Changes" comment="Customer Controller Name Changed">
-      <change afterPath="$PROJECT_DIR$/client/src/controllers/ItemController.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/ItemPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/controller/ItemController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/model/ItemModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routes/ItemRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f2b458-b0cd-411f-a86e-2efc8ecfdde6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f2b458-b0cd-411f-a86e-2efc8ecfdde6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/CustomerPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/CustomerPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,33 +29,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IJSE/Workspace/3rd Sem Repo/My/CRUD/MERN-CRUD/client/src/pages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.client.executor": "Run",
-    "npm.dev.executor": "Run",
-    "npm.server.executor": "Run",
-    "npm.start.executor": "Run",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "ts.external.directory.path": "D:\\IJSE\\Workspace\\3rd Sem Repo\\My\\CRUD\\MERN-CRUD\\client\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Workspace/3rd Sem Repo/My/CRUD/MERN-CRUD/client/src/pages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.client.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.server.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\IJSE\\Workspace\\3rd Sem Repo\\My\\CRUD\\MERN-CRUD\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mongo"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -149,6 +143,8 @@
       <workItem from="1721016129423" duration="458000" />
       <workItem from="1721017073584" duration="4000" />
       <workItem from="1723810633741" duration="3417000" />
+      <workItem from="1723820048483" duration="207000" />
+      <workItem from="1723820403799" duration="526000" />
     </task>
     <task id="LOCAL-00001" summary="client Added">
       <option name="closed" value="true" />

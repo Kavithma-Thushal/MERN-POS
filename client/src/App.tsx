@@ -4,6 +4,7 @@ import {ItemPage} from "./pages/ItemPage";
 function App() {
     return (
         <div>
+            <CustomerPage/>
             <ItemPage/>
         </div>
     );
