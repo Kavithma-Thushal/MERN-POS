@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const config = require('./config');
-const customerRoutes = require('./routes/CustomerRoutes');
+const itemRoutes = require('./routes/ItemRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -15,7 +15,7 @@ app.use(morgan('dev'));
 app.use(cors());
 
 // Routes
-app.use('/api/v1/customer', customerRoutes);
+app.use('/api/v1/item', itemRoutes);
 
 // MongoDB Connection
 mongoose.connect(config.mongoURI, {useNewUrlParser: true, useUnifiedTopology: true})

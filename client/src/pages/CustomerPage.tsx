@@ -24,27 +24,49 @@ export function CustomerPage() {
     return (
         <main className="container my-5">
             <h1 className="text-center mb-4 fw-bold">Customer Management</h1>
+
             {/* Customer Form */}
             <div className="row justify-content-center">
                 <form className="col-12 col-md-8 col-lg-6 shadow-lg p-5">
                     <div className="mb-3">
-                        <input className="form-control" value={customerId}
-                               onChange={(e) => setCustomerId(e.target.value)} type="text" placeholder="Customer ID"/>
+                        <label htmlFor="customerId" className="form-label fw-bold">Customer ID</label>
+                        <input
+                            id="customerId"
+                            className="form-control"
+                            value={customerId}
+                            onChange={(e) => setCustomerId(e.target.value)}
+                            type="text"
+                        />
                     </div>
                     <div className="mb-3">
-                        <input className="form-control" value={customerName}
-                               onChange={(e) => setCustomerName(e.target.value)} type="text"
-                               placeholder="Customer Name"/>
+                        <label htmlFor="customerName" className="form-label fw-bold">Customer Name</label>
+                        <input
+                            id="customerName"
+                            className="form-control"
+                            value={customerName}
+                            onChange={(e) => setCustomerName(e.target.value)}
+                            type="text"
+                        />
                     </div>
                     <div className="mb-3">
-                        <input className="form-control" value={customerAddress}
-                               onChange={(e) => setCustomerAddress(e.target.value)} type="text"
-                               placeholder="Customer Address"/>
+                        <label htmlFor="customerAddress" className="form-label fw-bold">Customer Address</label>
+                        <input
+                            id="customerAddress"
+                            className="form-control"
+                            value={customerAddress}
+                            onChange={(e) => setCustomerAddress(e.target.value)}
+                            type="text"
+                        />
                     </div>
                     <div className="mb-3">
-                        <input className="form-control" value={customerSalary}
-                               onChange={(e) => setCustomerSalary(e.target.value)} type="text"
-                               placeholder="Customer Salary"/>
+                        <label htmlFor="customerSalary" className="form-label fw-bold">Customer Salary</label>
+                        <input
+                            id="customerSalary"
+                            className="form-control"
+                            value={customerSalary}
+                            onChange={(e) => setCustomerSalary(e.target.value)}
+                            type="text"
+                        />
                     </div>
                     <div className="d-flex justify-content-center mt-4">
                         <button className="btn btn-outline-primary mx-2" type="button" onClick={saveCustomer}>Save
@@ -61,6 +83,7 @@ export function CustomerPage() {
                     </div>
                 </form>
             </div>
+
             {/* Customer Table */}
             <div className="row justify-content-center mt-5">
                 <div className="col-12">
