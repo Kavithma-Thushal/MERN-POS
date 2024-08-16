@@ -47,11 +47,16 @@ export function CustomerPage() {
                                placeholder="Customer Salary"/>
                     </div>
                     <div className="d-flex justify-content-center mt-4">
-                        <button className="btn btn-outline-primary mx-2" type="button" onClick={saveCustomer}>Save</button>
-                        <button className="btn btn-outline-success mx-2" type="button" onClick={searchCustomer}>Search</button>
-                        <button className="btn btn-outline-warning mx-2" type="button" onClick={updateCustomer}>Update</button>
-                        <button className="btn btn-outline-danger mx-2" type="button" onClick={deleteCustomer}>Delete</button>
-                        <button className="btn btn-outline-secondary mx-2" type="button" onClick={loadAllCustomers}>Load All
+                        <button className="btn btn-outline-primary mx-2" type="button" onClick={saveCustomer}>Save
+                        </button>
+                        <button className="btn btn-outline-success mx-2" type="button" onClick={searchCustomer}>Search
+                        </button>
+                        <button className="btn btn-outline-warning mx-2" type="button" onClick={updateCustomer}>Update
+                        </button>
+                        <button className="btn btn-outline-danger mx-2" type="button" onClick={deleteCustomer}>Delete
+                        </button>
+                        <button className="btn btn-outline-secondary mx-2" type="button" onClick={loadAllCustomers}>Load
+                            All
                         </button>
                     </div>
                 </form>
