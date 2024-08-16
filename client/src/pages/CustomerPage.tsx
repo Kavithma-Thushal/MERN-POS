@@ -17,7 +17,8 @@ export function CustomerPage() {
         searchCustomer,
         updateCustomer,
         deleteCustomer,
-        loadAllCustomers
+        loadAllCustomers,
+        handleRowClick
     } = CustomerController();
 
     return (
@@ -25,7 +26,7 @@ export function CustomerPage() {
             <h1 className="text-center mb-4 fw-bold">Customer Management</h1>
             {/* Customer Form */}
             <div className="row justify-content-center">
-                <form className="col-12 col-md-8 col-lg-6">
+                <form className="col-12 col-md-8 col-lg-6 shadow-lg p-5">
                     <div className="mb-3">
                         <input className="form-control" value={customerId}
                                onChange={(e) => setCustomerId(e.target.value)} type="text" placeholder="Customer ID"/>
@@ -69,7 +70,7 @@ export function CustomerPage() {
                         </thead>
                         <tbody>
                         {customers.map((customer) => (
-                            <tr key={customer.id}>
+                            <tr key={customer.id} onClick={() => handleRowClick(customer)}>
                                 <td>{customer.id}</td>
                                 <td>{customer.name}</td>
                                 <td>{customer.address}</td>
