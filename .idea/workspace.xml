@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbeb44ed-df04-4398-934d-db93f4a3a8c7" name="Changes" comment="Customer Module Refactored 2">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f2b458-b0cd-411f-a86e-2efc8ecfdde6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f2b458-b0cd-411f-a86e-2efc8ecfdde6.xml" afterDir="false" />
+    <list default="true" id="cbeb44ed-df04-4398-934d-db93f4a3a8c7" name="Changes" comment="Refactored">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/controllers/CustomerController.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/controllers/CustomerController.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/CustomerPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/CustomerPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +136,7 @@
       <workItem from="1719735979835" duration="189000" />
       <workItem from="1721016129423" duration="458000" />
       <workItem from="1721017073584" duration="4000" />
-      <workItem from="1723810633741" duration="1376000" />
+      <workItem from="1723810633741" duration="1481000" />
     </task>
     <task id="LOCAL-00001" summary="client Added">
       <option name="closed" value="true" />
@@ -205,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719735968021</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Refactored">
+      <option name="closed" value="true" />
+      <created>1723812050722</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723812050722</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +226,7 @@
     <MESSAGE value="package.json Refactored" />
     <MESSAGE value="Customer Module Refactored" />
     <MESSAGE value="Customer Module Refactored 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Customer Module Refactored 2" />
+    <MESSAGE value="Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
   </component>
 </project>
