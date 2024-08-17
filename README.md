@@ -59,6 +59,6 @@ Got any bugs, issues, or need help understanding the code? Feel free to reach ou
 
 #### © 2024 All Rights Reserved | Designed by [Kavithma Thushal](https://github.com/Kavithma-Thushal)
 
-#### ‍⚠️👷‍♂️ This Web Application is currently under construction. Stay tuned for updates! 👷‍♂️⚠️
+#### ‍⚠️👷‍♂️ This Web Application is currently Under Construction. Stay tuned for updates! 👷‍♂️⚠️
 
 </div>
